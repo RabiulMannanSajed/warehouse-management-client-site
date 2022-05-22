@@ -4,7 +4,7 @@ const DeleteProduct = () => {
     const [myProduct, setMyProduct] = useState([])
 
     useEffect(() => {
-        const url = `http://localhost:5000/addedItem`
+        const url = `https://afternoon-lowlands-44113.herokuapp.com/addedItem`
         fetch(url)
             .then(res => res.json())
             .then(data => setMyProduct(data))
@@ -13,7 +13,7 @@ const DeleteProduct = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure?')
         if (proceed) {
-            const url = `http://localhost:5000/addedItem/${id}`
+            const url = `https://afternoon-lowlands-44113.herokuapp.com/addedItem/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

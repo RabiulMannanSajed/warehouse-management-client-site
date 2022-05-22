@@ -6,7 +6,7 @@ const useProductsHook = () => {
 
         //!!  Here this fetch part will come from "Backend  server"
         //!!  This time (spiceProducts.json) will not use here
-        fetch('http://localhost:5000/product')
+        fetch('https://afternoon-lowlands-44113.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setSpiceProducts(data))
     }, [])

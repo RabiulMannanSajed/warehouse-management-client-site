@@ -11,7 +11,7 @@ const MyProducts = () => {
 
         const myProduct = async () => {
 
-            const url = `http://localhost:5000/addedItem`;
+            const url = `https://afternoon-lowlands-44113.herokuapp.com/addedItem`;
             const { data } = await axios.get(url);
             setAddedProduct(data);
         }

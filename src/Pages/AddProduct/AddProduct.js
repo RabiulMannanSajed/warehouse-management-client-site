@@ -11,7 +11,7 @@ const AddProduct = () => {
 
     const onSubmit = data => {
         console.log(data);
-        const url = `http://localhost:5000/addedItem`;
+        const url = `https://afternoon-lowlands-44113.herokuapp.com/addedItem`;
         // sanding data of add product
         fetch(url, {
             method: 'POST',

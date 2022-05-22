@@ -12,7 +12,7 @@ const ProductDetail = () => {
     // const { quantity, name } = product;
 
     // useEffect(() => {
-    //     const url = `http://localhost:5000/product/${productId}`
+    //     const url = `https://afternoon-lowlands-44113.herokuapp.com/product/${productId}`
     //     fetch(url)
     //         .then(res => res.json())
     //         .then(data => setProduct(data))
@@ -24,7 +24,7 @@ const ProductDetail = () => {
         event.preventDefault();
 
         // send data to the server
-        const url = `http://localhost:5000/product/${productId}`
+        const url = `https://afternoon-lowlands-44113.herokuapp.com/product/${productId}`
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -43,7 +43,7 @@ const ProductDetail = () => {
     // deliver button handle
     const handleDeliverBtn = async () => {
         console.log('Delivary btn clicked');
-        const url = `http://localhost:5000/product/${productId}`;
+        const url = `https://afternoon-lowlands-44113.herokuapp.com/product/${productId}`;
 
         await fetch(url, {
             method: 'PUT',
