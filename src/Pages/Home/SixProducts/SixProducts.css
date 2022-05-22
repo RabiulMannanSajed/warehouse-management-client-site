@@ -1,0 +1,17 @@
+.products-Section {
+    background-color: #34495E;
+    padding: 5px;
+    color: #B2BABB;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.img-of-products {
+    /* height: 350px;
+    width: 400px; */
+    height: 235px;
+}
+
+.sixProducts-Section-btn {
+    align-items: center;
+}

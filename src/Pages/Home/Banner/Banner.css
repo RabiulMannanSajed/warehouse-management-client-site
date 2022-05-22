@@ -1,0 +1,12 @@
+.carousel-img {
+    width: 400px;
+    height: 500px;
+}
+
+.banner-text {
+    background-color: lightyellow;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,11 @@
+.socialLogin-div {
+    display: flex;
+    align-items: center;
+
+}
+
+.hr-line {
+    background-color: lightgray;
+    width: 50%;
+    height: 2px;
+}
